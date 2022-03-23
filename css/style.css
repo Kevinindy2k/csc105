@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "phaiwan";
+  src: url("../fonts/phaiwan.woff2") format("woff2"), url("../fonts/phaiwan.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  background-color: #212121;
+}
+body,
+html,
+* {
+  user-select: none;
+  font-family: "phaiwan";
+  color: #fff;
+}
+.navbar {
+  border-bottom: 5px solid rgb(199, 23, 47);
+}
+.card {
+  border-radius: 0;
+  box-shadow: none;
+  border-top: 7px solid rgba(30, 52, 194, 1);
+}
+.phaiwan {
+  background-color: #262626;
+}
